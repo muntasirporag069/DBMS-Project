@@ -1,0 +1,205 @@
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+    background-color:whitesmoke;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;  
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+
+
+/*Main Code*/
+body
+{
+   height: fit-content;
+   background-color: whitesmoke;
+   
+}
+
+.something
+{   
+    float: inline-start;
+    text-align: center;
+    text-size-adjust: auto;
+    
+}
+.LoCo
+{
+ 
+    text-decoration-color: black;
+    
+    font-size: larger;
+    
+}
+
+
+table {
+    border-collapse: collapse;
+    width: 75%;
+    margin-bottom: 26px;
+    margin-left: 180px;
+    border-top: #000000;
+    border-width: 1px;
+    justify-content: center;
+    
+  }
+  tr{
+    height: 30px;
+  }
+  th, td {
+    padding: 8px;
+    text-align: center;
+    border-bottom: 1px solid #000000;
+    border-right: 1px solid #000000;
+    border-left: 1px solid #000000;
+    background-color: rgb(234, 234, 241);
+  }
+  th {
+    background-color: #8dacb8;
+  }
+  .caption1
+  {
+   font-size: x-large;
+   
+   
+  }
+  
+  
+  a{
+     color: #000000
+    
+    }
+
+    .horizontalButton {
+        list-style-type: none;
+        padding: 0px;
+        margin: 20px;
+        display: flex;
+        justify-content: center;
+      }
+      
+      .horizontalButton li {
+        margin-right: 10px; /* Adjust the spacing between items */
+      }
+      .horizontalButton li button{
+        height: 30px;
+        width: 50px;
+        font-size: 15px;
+        border-radius: 5px;
+        cursor: pointer;
+        display: inline-block;
+      }
+      
+      .horizontalbutton2 {
+        list-style-type: none;
+        padding: 0px;
+        margin: 20px;
+        display: flex;
+        justify-content: center;
+      }
+      
+      .horizontalbutton2 li {
+        margin-right: 10px; /* Adjust the spacing between items */
+      }
+      .horizontalbutton2 li button{
+        height: 30px;
+        width: 50px;
+        font-size: 15px;
+        border-radius: 5px;
+        cursor: pointer;
+        display: inline-block;
+      }
+      
+      
+
+      
+      
+    

@@ -1,0 +1,191 @@
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;  
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+
+
+/*main code*/
+body {
+    background-color: #f7f7f7;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    width: 400px;
+    height: 170px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: #b5a066;
+    border-radius: 10px;
+    text-align: center;
+   /* box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);*/
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+   
+  }
+  
+  h1 {
+    color: #000000;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+
+  .confirmation-button.yes {
+    background-color:#139cce;
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+    text-decoration-color: #050404;
+  }
+
+  .confirmation-button.yes:hover {
+    opacity: 0.8;
+    background-color:green;
+
+   
+  }
+  
+  .confirmation-button.yes:active {
+    opacity: 0.6;
+    background-color: rgb(14, 80, 14);
+  }
+
+  .confirmation-button.no {
+    background-color: #139cce;
+    color: #fff;
+  }
+  .confirmation-button.no:hover {
+    opacity: 0.8;
+    background-color: red;
+  }
+  
+  .confirmation-button.no:active {
+    opacity: 0.6;
+    color: red;
+  }
+
+ p {
+    color: #0d0d0d;
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .confirmation-box {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .confirmation-button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    
+  }
+  body {
+    font-family: Arial, sans-serif;
+    background-image: url('images/newgymm.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.text2
+{
+    font-size: x-large;
+}
