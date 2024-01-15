@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+ <h1 class="heading">
+  <div class="logo">
+    <img src="images/logo.png">
+  </div>
+</h1>
+<p class="textss"><b><b> Gym  Member  Registration  Form</b></b></p>
+
+</head>
+
+<link rel="stylesheet" type="text/css" href="registers.css">
+<body>
+    <div class="container">
+  <form class="textbox" action="register_connection.php" method="post">
+    <label for="fname"><b>Full Name:</b></label  >
+    <input type="text" id="fname" name="firstname" placeholder="Write your full name here..">
+    
+    <label for="fname"><b>Enter Your Password:</b></label>
+    <input type="text" id="password" name="password" placeholder="Write your password....">
+
+    <label for="Gender"><b>Gender:</b></label>
+    <select id="gender" name="gender">
+      <option value="Male">Male</option>
+      <option value="Female">Female</option>
+    </select>
+
+    <label for="event-time"><b>Date of Birth:</b></label>
+    <input type="datetime-local" id="event-time" name="event-time" placeholder="Enter the date">
+    
+
+    <label for="contact"><b>Contact Number:</b></label>
+    <input type="text" id="contact" name="contact" placeholder="Enter your contact number +880....">
+
+    <label for="email"><b>Email address:</b></label>
+    <input type="text" id="email" name="email" placeholder="Enter your email. For example something@gmail.com">
+
+    <label for="emergencycontact"><b>Emergency Contact Number:</b></label>
+    <input type="text" id="emergencycontact" name="emergencycontact" placeholder="Enter your emergency contact number +880....">
+
+    <label for="weight"><b>Current Weight:</b></label>
+    <input type="text" id="weight" name="currentweight" placeholder="Enter your weight....">
+
+    <label for="height"><b>Special Disease:</b></label>
+    <input type="text" id="height" name="yourheight" placeholder="Enter the name of special diseases....">
+
+    <label for="subject"><b>Why do you want to join Gym?</b></label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:100px"></textarea>
+
+    <div class="centered-button">
+      <button><input type="submit" value="Submit"></button>
+    </div>
+  </form>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<h1 class="heading">
+  <div class="logo">
+    <img src="images/logo.png">
+  </div>
+</h1>
+<p class="textss"><b><b>Form for available Equipments in your Gym</b></b></p>
+</head>
+<link rel="stylesheet" type="text/css" href="Equipments.css">
+<body>
+    <div class="container">
+  <form class="textbox" action="Equipments_connection.php" method="post">
+    
+
+    <label for="Trdmills"><b>Treadmills</b></label>
+    <select id="Trdmills" name="Trdmills">
+      <option value="Yes">Yes</option>
+      <option value="No">No</option>
+    </select>
+    <label for="AmntTrdmills"><b>Amount of Treadmills:</b></label>
+    <input type="text" id="AmntTrdmills" name="AmntTrdmills" placeholder="Enter the amount of Treadmills">
+
+
+    <label for="Ellipticals"><b>Ellipticals</b></label>
+      <select id="Ellipticals" name="Ellipticals">
+        <option value="Yes">Yes</option>
+        <option value="No">No</option>
+      </select>
+      <label for="AmntEllipticals"><b>Amount of Ellipticals:</b></label>
+    <input type="text" id="AmntEllipticals" name="AmntEllipticals" placeholder="Enter the amount of Ellipticals...">
+
+
+
+      <label for="Stair"><b>Stair Climbers</b></label>
+      <select id="Stair" name="Stair">
+        <option value="Yes">Yes</option>
+        <option value="No">No</option>
+      </select>
+      <label for="AmntStrclmbr"><b>Amount of Stair Climbers:</b></label>
+    <input type="text" id="AmntStrclmbr" name="AmntStrclmbr" placeholder="Enter the amount of Stair Climbers...">
+
+
+      <label for="Exercise"><b>Exercise Bikes</b></label>
+      <select id="Exercise" name="Exercise">
+        <option value="Yes">Yes</option>
+        <option value="No">No</option>
+      </select>
+      <label for="AmntEB"><b>Amount of Exercise Bikes:</b></label>
+    <input type="text" id="AmntEB" name="AmntEB" placeholder="Enter the amount of Exercise Bikes...">
+
+
+      <label for="BenchPress"><b>Bench Press</b></label>
+      <select id="benchpress" name="benchpress">
+        <option value="Yes">Yes</option>
+        <option value="No">No</option>
+      </select>
+      <label for="AmntBP"><b>Amount of Bench Press:</b></label>
+    <input type="text" id="AmntBP" name="AmntBP" placeholder="Enter the amount of Bench Press...">
+
+
+
+      <label for="RowingMachine"><b>Rowing Machine</b></label>
+      <select id="rowingmachine" name="rowingmachine">
+        <option value="Yes">Yes</option>
+        <option value="No">No</option>
+      </select>
+      <label for="AmntRM"><b>Amount of Rowing Machine:</b></label>
+    <input type="text" id="AmntRM" name="AmntRM" placeholder="Enter the amount of Rowing Machine...">
+
+
+      <label for="SmithMachine"><b>Smith Machine</b></label>
+      <select id="smithmachine" name="smithmachine">
+        <option value="Yes">Yes</option>
+        <option value="No">No</option>
+      </select>
+      <label for="AmntSM"><b>Amount of Smith Machine:</b></label>
+    <input type="text" id="AmntSM" name="AmntSM" placeholder="Enter the amount of Smith Machine...">
+     
+    <label for="GymID"><b>Gym ID:</b></label>
+    <input type="text" id="GymID" name="GymID" placeholder="Enter your Gym ID...">
+
+
+    <div class="centered-button">
+      <button><input type="submit" value="Submit"></button>
+    </div>
+  </form>
+</div>
+
+</body>
+</html>

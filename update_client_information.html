@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+ <h1 class="heading">
+  <div class="logo">
+    <img src="images/logo.png">
+  </div>
+</h1>
+<p class="textss"><b><b> UPDATE BASIC INFO</b></b></p>
+
+</head>
+
+<link rel="stylesheet" type="text/css" href="registers.css">
+<body>
+    <div class="container">
+  <form class="textbox" action="update_client_connection.php" method="post">
+    
+    <label for="contact"><b>Contact Number:</b></label>
+    <input type="text" id="contact" name="contact" value="+880123456789">
+
+    <label for="email"><b>Email address:</b></label>
+    <input type="text" id="email" name="email" value="johndoe@example.com">
+
+    <label for="emergencycontact"><b>Emergency Contact Number:</b></label>
+    <input type="text" id="emergencycontact" name="emergencycontact" value="+880987654321">
+
+    <label for="weight"><b>Current Weight:</b></label>
+    <input type="text" id="weight" name="currentweight"  value="70 kg">
+
+    <label for="height"><b>Special Disease:</b></label>
+    <input type="text" id="disease" name="disease" value="diabetes">
+
+    <div class="centered-button">
+      <button><input type="submit" value="Submit"></button>
+    </div>
+  </form>
+</div>
+
+</body>
+</html>

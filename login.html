@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login page</title>
+    <link rel="stylesheet" type="text/css" href="logins.css">
+</head>
+<body>
+    <div class="container">
+        <h2><b><b>User Login</b></b></h2>
+        <form action="login_connection.php" method="POST">
+            <div class="form-group">
+                <label for="username">UserID:</label>
+                <input type="text" id="userID" name="userID" required style="width: 80%; padding: 10px; border-radius: 3px; border: 1px solid #222020; transition: border-color 0.3s ease;">
+            </div>
+
+            <div class="form-group">
+                <label for="usertype">User Type:</label>
+                <select id="usertype" name="usertype" required style="width: 85%; padding: 10px; border-radius: 3px; border: 1px solid #242222; transition: border-color 0.3s ease;">
+                
+                    <option value="client">Client</option>
+                    <option value="trainer">Trainer</option>
+                    <option value="nutritionist">Nutritionist</option>
+                    <option value="owner">Owner</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required style="width: 80%; padding: 10px; border-radius: 3px; border: 1px solid #060606; transition: border-color 0.3s ease;">
+            </div>
+
+            <div class="form-group">
+                <input type="submit" value="Login" >
+            </div>
+        </form>
+
+        <div class="register-link">
+            <p>Don't have an account?</p> <br>
+            <a href="select_type.html">Register</a>
+        </div>
+    </div>
+    
+</body>
+</html>

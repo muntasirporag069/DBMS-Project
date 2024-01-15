@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multi-Gym Management System</title>
+
+    <link rel="stylesheet" type="text/css" href="Gym.css">
+</head>
+<body>
+    <div class="GymDBMS">
+        <header>
+            <div class="logo">
+                <img src="images/logo.png">
+            </div>
+            <div class="header-content">
+                <p style="font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;font-size:xx-large">
+                    ~~~~~~~A Multi-Gym Database Management System~~~~~~~
+                </p>
+            </div>
+            <nav>
+                <ul>
+                    <li>
+                        <button><a href="login.html">Login</a></button>
+                    </li>
+                    <li>
+                        <div class="dropdown1">
+                            <link rel="stylesheet" type="text/css" href="">
+                            <button>Action</button>
+                            <div class="dropdown-options">
+                                <a href="select_type.html" class="newbutton"><b>Register</b></a>
+                                <a href="select_update_type.html"><b>Update</b></a>
+                                <a href="delete_record.html"><b>Remove</b></a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <button><a href="AboutUss.html" class="usButton">About_us</a></button>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <section>
+            <br><br><br><br><br><br>
+            <div class="box">
+                <p class="textttt">
+                    <b><b><b><b><b><b>When life gives you pain<br>Go to the Gym</b></b></b></b></b></b>
+                </p>
+            </div>
+            <br><br><br><br>
+            <div class="search-container">
+                <form action="searchgym.php" method="GET">
+                    <input type="text" name="search" placeholder="Enter your Location (area)...">
+                    <button type="submit">Search Gym</button>
+                </form>
+            </div>
+        </section>
+        <footer>
+            <p style="color:black; text-align:center"><br>
+                <br> <b> <b><b> <b>Email:multi-Gym23@gmail.com</b></b></b> </b> <br><br>
+                <b><b><b>Contact Us:+8801315-926112</b></b></b>
+            </p>
+        </footer>
+    </div>
+</body>
+</html>

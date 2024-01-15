@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<h1 class="heading">
+  <div class="logo">
+    <img src="images/logo.png">
+  </div>
+</h1>
+<p class="textss"><b><b> Gym Registration  Form</b></b></p>
+</head>
+<link rel="stylesheet" type="text/css" href="GymRegistrations.css">
+<body>
+    <div class="container">
+  <form class= "textbox" action="gym_connection.php" method="post">
+    <label for="fname"><b>Name of the Gym:</b></label>
+    <input type="text" id="fname" name="firstname" placeholder="Write the name of your Gym..">
+   
+
+    <label for="LctnGym"><b>Division:</b></label>
+    <select id="lctngym" name="lctnGym">
+      <option value="Dhaka">Dhaka</option>
+      <option value="Chittagong">Chittagong</option>
+      <option value="Khulna">Khulna</option>
+      <option value="Barishal">Barishal</option>
+      <option value="Sylhet">Sylhet</option>
+      <option value="Faridpur">Faridpur</option>
+      <option value="Rajshahi">Rajshahi</option>
+      <option value="Mymensingh">Mymensingh</option>
+      <option value="Comilla">Comilla</option>
+    </select>
+       
+    <label for="City"><b>City Name:</b></label>
+    <input type="text" id="city" name="city" placeholder="Enter the city name of the location of the Gym....">
+
+    <label for="area"><b>Area:</b></label>
+    <input type="text" id="area" name="area" placeholder="Enter the name of the area....">
+
+    <label for="House"><b>House No:</b></label>
+    <input type="text" id="house" name="house" placeholder="Enter the house number.....">
+
+    <label for="contact"><b>Contact Number:</b></label>
+    <input type="text" id="contact" name="contact" placeholder="Enter the contact number of the Gym +880....">
+    
+    <label for="Specialization"><b>Specialization:</b></label>
+    <textarea id="subject" name="subject" placeholder="Enter the name of the special sectors of your Gym...." style="height:200px"></textarea>
+
+    <div class="centered-button">
+      <button><input type="submit" value="Submit"></button>
+    </div>
+  </form>
+</div>
+
+</body>
+</html>
